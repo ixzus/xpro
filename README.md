@@ -14,7 +14,6 @@
 
     >   用到layout x1开头
 
-
      ![image](https://github.com/ixzus/xpro/blob/master/xpic/x1notify.gif)
 
 
