@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.NotifyActivity"></activity>
+        <activity android:name=".activity.notify.NotifyActivity" />
+        <activity android:name=".activity.dropdownmenu.DropDownMenuActivity"></activity>
     </application>
 
 </manifest>

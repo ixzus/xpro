@@ -1,4 +1,4 @@
-package com.ixzus.xpro.activity;
+package com.ixzus.xpro.activity.notify;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -50,7 +50,7 @@ public class NotifyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notify);
+        setContentView(R.layout.x1activity_notify);
         ButterKnife.bind(this);
         initDone();
     }
