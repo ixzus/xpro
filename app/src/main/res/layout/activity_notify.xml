@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ixzus.xpro.activity.NotifyActivity">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工具类的使用，请查看下图，调用NotifyUtil对应的方法即可"/>
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/iv_code"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="top"
+        android:background="#23241F"
+        android:scaleType="centerInside"
+        android:src="@mipmap/x1image1" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_tb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="淘宝 普通 单行" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_wy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网易新闻 普通 多行" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信 普通 双图标" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_sys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统 截图 大图" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_yyb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应用宝 自定义视图" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更新 折叠 双按钮" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载 进度条" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_headsup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="heads-up 5.0特性" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清空通知" />
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

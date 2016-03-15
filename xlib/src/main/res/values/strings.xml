@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XLib</string>
+    <!--PasswordEditText-->
+    <string name="hide_text">HIDE</string>
+    <string name="show_text">SHOW</string>
+    <!--EmailInputView-->
+    <string name="emailinputview_hint">Email</string>
+    <string name="emailinputview_invalid_error">Email not recognized</string>
+</resources>

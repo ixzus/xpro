@@ -1,7 +1,10 @@
 package com.ixzus.xpro;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.ixzus.xpro.activity.NotifyActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,11 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-		//1
-        //2
-        //12
-        //13
-        //14
-        //21
+        //各种通知演示
+        startActivity(new Intent(this, NotifyActivity.class));
     }
+
+
 }

@@ -1,0 +1,46 @@
+
+ <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="淘宝 普通 单行"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/wy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网易新闻 普通 多行"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/wx_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信 普通 双图标"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/sys_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统 截图 大图"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/yyb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用宝 自定义视图"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新 折叠 双按钮"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/download_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载 进度条"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/headsup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heads-up 5.0特性"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/clear_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空通知"/>
