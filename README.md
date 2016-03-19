@@ -1,5 +1,9 @@
 *readme测试*
 **1.0**
+
+零.
+    Application单例,Application中缓存数据很不稳定稍有bug就丢失了
+
 一.xpro公用说明
 
 
@@ -11,6 +15,7 @@
 ![image](xhttps://github.com/ixzus/xpro/blob/master/xpic/x1notify.gif)
 
 2.dorpdownmenu  x2
+
 ![image](xhttps://github.com/ixzus/xpro/blob/master/xpic/x2dropdownmenu.gif)
 
 二.xlib 公用module
