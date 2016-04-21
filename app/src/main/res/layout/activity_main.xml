@@ -9,5 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ixzus.xpro.MainActivity">
 
+    <com.ixzus.xlib.xview.AlignTextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="这是一段中英文混合的文本，I am very happy today。 emergency measures,"/>
+
 
 </RelativeLayout>

@@ -22,5 +22,6 @@
 
 1.FormatEditText 格式化电话号码
 
+2.AlignTextView 中英混排,最后一行可以左中右对齐
 
-2.
+3.CBAlignTextView 中英混排, 支持复制
