@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Topbar">
+        <!--title-->
+        <attr name="xtitle" format="string"/>
+        <attr name="xtitleTextSize" format="dimension"/>
+        <attr name="xtitleTextColor" format="color"/>
+        <attr name="xtitleVisiable" format="boolean"/>
+        <!--左边-->
+        <attr name="xleftBackground" format="reference|color"/>
+        <attr name="xleftText" format="string"/>
+        <attr name="xleftTextColor" format="color"/>
+        <attr name="xleftVisiable" format="boolean"/>
+        <!--右边-->
+        <attr name="xrightBackground" format="reference|color"/>
+        <attr name="xrightText" format="string"/>
+        <attr name="xrightTextColor" format="color"/>
+        <attr name="xrightVisiable" format="boolean"/>
+
+    </declare-styleable>
+</resources>

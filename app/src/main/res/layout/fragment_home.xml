@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ixzus.xpro.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.ixzus.xpro.view.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorBlueAccent"
+
+        custom:xleftText="返回"
+        custom:xleftTextColor="@color/colorPrimaryText"
+        custom:xleftVisiable="false"
+
+        custom:xrightText="更多"
+        custom:xrightTextColor="@color/colorPrimaryText"
+        custom:xrightVisiable="false"
+
+        custom:xtitle="xpro"
+        custom:xtitleTextColor="@color/colorPrimaryText"
+        custom:xtitleVisiable="true"
+        custom:xtitleTextSize="12sp">
+    </com.ixzus.xpro.view.TopBar>
+
+</FrameLayout>

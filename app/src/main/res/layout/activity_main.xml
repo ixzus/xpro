@@ -3,16 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="?attr/menuBackground"
+    android:fitsSystemWindows="true"
     tools:context="com.ixzus.xpro.MainActivity">
 
-    <com.ixzus.xlib.xview.AlignTextView
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:text="这是一段中英文混合的文本，I am very happy today。 emergency measures,"/>
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_layout"/>
 
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

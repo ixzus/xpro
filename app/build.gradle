@@ -19,17 +19,31 @@ android {
     }
 }
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.3.0'
     compile project(':xlib')
-
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
     compile 'com.android.support:support-v13:23.3.0'
-
     compile 'com.jakewharton:butterknife:7.0.1'
-
-    //使用notifyactivity
     compile 'com.commit451:PhotoView:1.2.4'
+    //刷新
+    compile 'com.github.Aspsine:SwipeToLoadLayout:v1.0.2'
+    //adapter
+    compile 'org.byteam.superadapter:superadapter:3.0.0-beta1@aar'
+    //bottomNavigationBar
+    compile 'com.ashokvarma.android:bottom-navigation-bar:1.0.0'
+    //material dialog
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.8@aar') {
+        transitive = true
+    }
+    compile('com.github.afollestad.material-dialogs:commons:0.8.5.4@aar') {
+        transitive = true
+    }
 }

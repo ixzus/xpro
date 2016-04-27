@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.notify.NotifyActivity" />
-        <activity android:name=".activity.dropdownmenu.DropDownMenuActivity"></activity>
+        <activity android:name=".activity.dropdownmenu.DropDownMenuActivity" />
+        <activity android:name=".activity.refresh.SwipeToLoadActivity" />
+        <activity android:name=".ThemeActivity"></activity>
     </application>
 
 </manifest>

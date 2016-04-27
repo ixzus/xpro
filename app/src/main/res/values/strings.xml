@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">xpro</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_homefragment">Hello blank homefragment</string>
+    <string name="hello_blank_uifragment">Hello blank uifragment</string>
+    <string name="hello_blank_netfragment">Hello blank netfragment</string>
+    <string name="hello_blank_webfragment">Hello blank webfragment</string>
+    <string name="hello_blank_otherfragment">Hello blank otherfragment</string>
+
+    <!--other fragment-->
+    <string name="other_fragment_theme">主题</string>
+    <string name="theme">主题</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
 </resources>
