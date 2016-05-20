@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/index_opus_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/index_opus_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:background="@mipmap/bg_index_type"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rllll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_opus_iv"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/index_opus_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="48dp"
+            android:lineSpacingExtra="2dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/index_opus_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:text=""
+            android:textColor="@color/grey" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/index_opus_no"
+            android:src="@mipmap/ic_index_like" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/rllll"
+        android:background="#e7e7e7" />
+
+
+</RelativeLayout>

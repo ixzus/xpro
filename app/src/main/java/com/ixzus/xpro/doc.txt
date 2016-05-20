@@ -1,0 +1,11 @@
+1.glide 加载图片
+  String url = "http://nuuneoi.com/uploads/source/playstore/cover.jpg";
+  ImageLoader imageLoader =new ImageLoader.Builder().url(url).imgView(IvAva).build();
+  ImageLoaderUtil.getInstance().loadImage(getActivity(),imageLoader);
+2.retorfit网络加载
+ HttpMethods.getInstance().getHomeItem(new ProgressSubscriber(new SubscriberOnNextListener<List<HomeItem>>() {
+     @Override
+     public void onNext(List<HomeItem> homeItems) {
+         tvInfo.setText(homeItems.get(0).getImgUrl());
+     }
+ }, getActivity()), 1, 1,20);

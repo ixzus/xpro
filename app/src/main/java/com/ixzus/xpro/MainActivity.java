@@ -3,6 +3,7 @@ package com.ixzus.xpro;
 import android.animation.Animator;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
@@ -19,6 +20,7 @@ import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.ixzus.xpro.base.BaseActivity;
 import com.ixzus.xpro.theme.ColorUiUtil;
 import com.ixzus.xpro.theme.Theme;
+import com.ixzus.xpro.ui.activity.refresh.SwipeToLoadActivity;
 import com.ixzus.xpro.ui.fragment.HomeFragment;
 import com.ixzus.xpro.ui.fragment.NetFragment;
 import com.ixzus.xpro.ui.fragment.OtherFragment;
@@ -58,7 +60,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
 //        startActivity(new Intent(this, NotifyActivity.class));
 //        下拉选择菜单
 //        startActivity(new Intent(this, DropDownMenuActivity.class));
-//        startActivity(new Intent(this, SwipeToLoadActivity.class));
+        startActivity(new Intent(this, SwipeToLoadActivity.class));
 
         initBottomNavigatinoBar();
     }
