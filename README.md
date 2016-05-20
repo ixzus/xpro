@@ -59,3 +59,8 @@
          custom:xtitleVisiable="true"
         custom:xtitleTextSize="12sp">
     </com.ixzus.xpro.view.TopBar>
+
+ 6.imageloader
+     String url = "http://nuuneoi.com/uploads/source/playstore/cover.jpg";
+           ImageLoader imageLoader =new ImageLoader.Builder().url(url).imgView(IvAva).build();
+           ImageLoaderUtil.getInstance().loadImage(getActivity(),imageLoader);

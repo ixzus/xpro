@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ixzus.xpro.activity.refresh.SwipeToLoadActivity">
+    tools:context=".ui.activity.refresh.SwipeToLoadActivity">
 
     <com.aspsine.swipetoloadlayout.SwipeToLoadLayout
         android:id="@+id/swipetoload"

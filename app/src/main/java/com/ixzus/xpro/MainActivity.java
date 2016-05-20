@@ -17,13 +17,13 @@ import com.afollestad.materialdialogs.color.ColorChooserDialog;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.ixzus.xpro.base.BaseActivity;
-import com.ixzus.xpro.fragment.HomeFragment;
-import com.ixzus.xpro.fragment.NetFragment;
-import com.ixzus.xpro.fragment.OtherFragment;
-import com.ixzus.xpro.fragment.UIFragment;
-import com.ixzus.xpro.fragment.WebFragment;
 import com.ixzus.xpro.theme.ColorUiUtil;
 import com.ixzus.xpro.theme.Theme;
+import com.ixzus.xpro.ui.fragment.HomeFragment;
+import com.ixzus.xpro.ui.fragment.NetFragment;
+import com.ixzus.xpro.ui.fragment.OtherFragment;
+import com.ixzus.xpro.ui.fragment.UIFragment;
+import com.ixzus.xpro.ui.fragment.WebFragment;
 import com.ixzus.xpro.utils.PreUtils;
 import com.ixzus.xpro.utils.ThemeUtils;
 
@@ -39,6 +39,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
     @Bind(R.id.bottom_navigation_bar)
     BottomNavigationBar bottomNavigationBar;
 
+
     private HomeFragment homeFragment;
     private UIFragment uiFragment;
     private NetFragment netFragment;
@@ -48,6 +49,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.AppTheme);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 

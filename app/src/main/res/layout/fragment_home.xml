@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ixzus.xpro.fragment.HomeFragment">
+    tools:context=".ui.fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <com.ixzus.xpro.view.TopBar
@@ -25,5 +25,14 @@
         custom:xtitleVisiable="true"
         custom:xtitleTextSize="12sp">
     </com.ixzus.xpro.view.TopBar>
+
+    <ImageView
+        android:id="@+id/iv_ava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher"/>
+
 
 </FrameLayout>

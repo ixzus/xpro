@@ -8,6 +8,10 @@
 
     </style>
 
+    <style name="AppLauncherTheme">
+        <item name="android:windowBackground">@color/grey</item>
+    </style>
+
     <!--blueTheme-->
     <style name="BlueTheme" parent="AppTheme">
         <item name="colorPrimary">@color/colorBluePrimary</item>

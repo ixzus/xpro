@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.ixzus.xpro.activity.refresh.LoadMoreFooterView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.ixzus.xpro.ui.activity.refresh.LoadMoreFooterView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -35,4 +35,4 @@
             android:text="LoadMore"
             android:textColor="?attr/colorPrimary" />
     </RelativeLayout>
-</com.ixzus.xpro.activity.refresh.LoadMoreFooterView>
+</com.ixzus.xpro.ui.activity.refresh.LoadMoreFooterView>
